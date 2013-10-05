@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B013582717FFA74300E848E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013582617FFA74300E848E6 /* Foundation.framework */; };
+		B013582917FFA74300E848E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013582817FFA74300E848E6 /* CoreGraphics.framework */; };
+		B013582B17FFA74300E848E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013582A17FFA74300E848E6 /* UIKit.framework */; };
+		B013583117FFA74300E848E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B013582F17FFA74300E848E6 /* InfoPlist.strings */; };
+		B013583317FFA74300E848E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B013583217FFA74300E848E6 /* main.m */; };
+		B013583717FFA74300E848E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B013583617FFA74300E848E6 /* AppDelegate.m */; };
+		B013583A17FFA74300E848E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B013583817FFA74300E848E6 /* Main.storyboard */; };
+		B013583D17FFA74300E848E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B013583C17FFA74300E848E6 /* ViewController.m */; };
+		B013583F17FFA74300E848E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B013583E17FFA74300E848E6 /* Images.xcassets */; };
+		B013584617FFA74300E848E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013584517FFA74300E848E6 /* XCTest.framework */; };
+		B013584717FFA74300E848E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013582617FFA74300E848E6 /* Foundation.framework */; };
+		B013584817FFA74300E848E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013582A17FFA74300E848E6 /* UIKit.framework */; };
+		B013585017FFA74300E848E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B013584E17FFA74300E848E6 /* InfoPlist.strings */; };
+		B013585217FFA74300E848E6 /* ReverseObjectEnumeratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B013585117FFA74300E848E6 /* ReverseObjectEnumeratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B013584917FFA74300E848E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B013581B17FFA74300E848E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B013582217FFA74300E848E6;
+			remoteInfo = ReverseObjectEnumerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B013582317FFA74300E848E6 /* ReverseObjectEnumerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseObjectEnumerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B013582617FFA74300E848E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B013582817FFA74300E848E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B013582A17FFA74300E848E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B013582E17FFA74300E848E6 /* ReverseObjectEnumerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReverseObjectEnumerator-Info.plist"; sourceTree = "<group>"; };
+		B013583017FFA74300E848E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B013583217FFA74300E848E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B013583417FFA74300E848E6 /* ReverseObjectEnumerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReverseObjectEnumerator-Prefix.pch"; sourceTree = "<group>"; };
+		B013583517FFA74300E848E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B013583617FFA74300E848E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B013583917FFA74300E848E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B013583B17FFA74300E848E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B013583C17FFA74300E848E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B013583E17FFA74300E848E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B013584417FFA74300E848E6 /* ReverseObjectEnumeratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseObjectEnumeratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B013584517FFA74300E848E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B013584D17FFA74300E848E6 /* ReverseObjectEnumeratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReverseObjectEnumeratorTests-Info.plist"; sourceTree = "<group>"; };
+		B013584F17FFA74300E848E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B013585117FFA74300E848E6 /* ReverseObjectEnumeratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseObjectEnumeratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B013582017FFA74300E848E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013582917FFA74300E848E6 /* CoreGraphics.framework in Frameworks */,
+				B013582B17FFA74300E848E6 /* UIKit.framework in Frameworks */,
+				B013582717FFA74300E848E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B013584117FFA74300E848E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013584617FFA74300E848E6 /* XCTest.framework in Frameworks */,
+				B013584817FFA74300E848E6 /* UIKit.framework in Frameworks */,
+				B013584717FFA74300E848E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B013581A17FFA74300E848E6 = {
+			isa = PBXGroup;
+			children = (
+				B013582C17FFA74300E848E6 /* ReverseObjectEnumerator */,
+				B013584B17FFA74300E848E6 /* ReverseObjectEnumeratorTests */,
+				B013582517FFA74300E848E6 /* Frameworks */,
+				B013582417FFA74300E848E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B013582417FFA74300E848E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B013582317FFA74300E848E6 /* ReverseObjectEnumerator.app */,
+				B013584417FFA74300E848E6 /* ReverseObjectEnumeratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B013582517FFA74300E848E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B013582617FFA74300E848E6 /* Foundation.framework */,
+				B013582817FFA74300E848E6 /* CoreGraphics.framework */,
+				B013582A17FFA74300E848E6 /* UIKit.framework */,
+				B013584517FFA74300E848E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B013582C17FFA74300E848E6 /* ReverseObjectEnumerator */ = {
+			isa = PBXGroup;
+			children = (
+				B013583517FFA74300E848E6 /* AppDelegate.h */,
+				B013583617FFA74300E848E6 /* AppDelegate.m */,
+				B013583817FFA74300E848E6 /* Main.storyboard */,
+				B013583B17FFA74300E848E6 /* ViewController.h */,
+				B013583C17FFA74300E848E6 /* ViewController.m */,
+				B013583E17FFA74300E848E6 /* Images.xcassets */,
+				B013582D17FFA74300E848E6 /* Supporting Files */,
+			);
+			path = ReverseObjectEnumerator;
+			sourceTree = "<group>";
+		};
+		B013582D17FFA74300E848E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B013582E17FFA74300E848E6 /* ReverseObjectEnumerator-Info.plist */,
+				B013582F17FFA74300E848E6 /* InfoPlist.strings */,
+				B013583217FFA74300E848E6 /* main.m */,
+				B013583417FFA74300E848E6 /* ReverseObjectEnumerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B013584B17FFA74300E848E6 /* ReverseObjectEnumeratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B013585117FFA74300E848E6 /* ReverseObjectEnumeratorTests.m */,
+				B013584C17FFA74300E848E6 /* Supporting Files */,
+			);
+			path = ReverseObjectEnumeratorTests;
+			sourceTree = "<group>";
+		};
+		B013584C17FFA74300E848E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B013584D17FFA74300E848E6 /* ReverseObjectEnumeratorTests-Info.plist */,
+				B013584E17FFA74300E848E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B013582217FFA74300E848E6 /* ReverseObjectEnumerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B013585517FFA74300E848E6 /* Build configuration list for PBXNativeTarget "ReverseObjectEnumerator" */;
+			buildPhases = (
+				B013581F17FFA74300E848E6 /* Sources */,
+				B013582017FFA74300E848E6 /* Frameworks */,
+				B013582117FFA74300E848E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReverseObjectEnumerator;
+			productName = ReverseObjectEnumerator;
+			productReference = B013582317FFA74300E848E6 /* ReverseObjectEnumerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B013584317FFA74300E848E6 /* ReverseObjectEnumeratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B013585817FFA74300E848E6 /* Build configuration list for PBXNativeTarget "ReverseObjectEnumeratorTests" */;
+			buildPhases = (
+				B013584017FFA74300E848E6 /* Sources */,
+				B013584117FFA74300E848E6 /* Frameworks */,
+				B013584217FFA74300E848E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B013584A17FFA74300E848E6 /* PBXTargetDependency */,
+			);
+			name = ReverseObjectEnumeratorTests;
+			productName = ReverseObjectEnumeratorTests;
+			productReference = B013584417FFA74300E848E6 /* ReverseObjectEnumeratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B013581B17FFA74300E848E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = navzou;
+				TargetAttributes = {
+					B013584317FFA74300E848E6 = {
+						TestTargetID = B013582217FFA74300E848E6;
+					};
+				};
+			};
+			buildConfigurationList = B013581E17FFA74300E848E6 /* Build configuration list for PBXProject "ReverseObjectEnumerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B013581A17FFA74300E848E6;
+			productRefGroup = B013582417FFA74300E848E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B013582217FFA74300E848E6 /* ReverseObjectEnumerator */,
+				B013584317FFA74300E848E6 /* ReverseObjectEnumeratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B013582117FFA74300E848E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013583F17FFA74300E848E6 /* Images.xcassets in Resources */,
+				B013583117FFA74300E848E6 /* InfoPlist.strings in Resources */,
+				B013583A17FFA74300E848E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B013584217FFA74300E848E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013585017FFA74300E848E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B013581F17FFA74300E848E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013583D17FFA74300E848E6 /* ViewController.m in Sources */,
+				B013583717FFA74300E848E6 /* AppDelegate.m in Sources */,
+				B013583317FFA74300E848E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B013584017FFA74300E848E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B013585217FFA74300E848E6 /* ReverseObjectEnumeratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B013584A17FFA74300E848E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B013582217FFA74300E848E6 /* ReverseObjectEnumerator */;
+			targetProxy = B013584917FFA74300E848E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B013582F17FFA74300E848E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B013583017FFA74300E848E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B013583817FFA74300E848E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B013583917FFA74300E848E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B013584E17FFA74300E848E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B013584F17FFA74300E848E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B013585317FFA74300E848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B013585417FFA74300E848E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B013585617FFA74300E848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReverseObjectEnumerator/ReverseObjectEnumerator-Prefix.pch";
+				INFOPLIST_FILE = "ReverseObjectEnumerator/ReverseObjectEnumerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B013585717FFA74300E848E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReverseObjectEnumerator/ReverseObjectEnumerator-Prefix.pch";
+				INFOPLIST_FILE = "ReverseObjectEnumerator/ReverseObjectEnumerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B013585917FFA74300E848E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReverseObjectEnumerator.app/ReverseObjectEnumerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReverseObjectEnumerator/ReverseObjectEnumerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReverseObjectEnumeratorTests/ReverseObjectEnumeratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B013585A17FFA74300E848E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReverseObjectEnumerator.app/ReverseObjectEnumerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReverseObjectEnumerator/ReverseObjectEnumerator-Prefix.pch";
+				INFOPLIST_FILE = "ReverseObjectEnumeratorTests/ReverseObjectEnumeratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B013581E17FFA74300E848E6 /* Build configuration list for PBXProject "ReverseObjectEnumerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B013585317FFA74300E848E6 /* Debug */,
+				B013585417FFA74300E848E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B013585517FFA74300E848E6 /* Build configuration list for PBXNativeTarget "ReverseObjectEnumerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B013585617FFA74300E848E6 /* Debug */,
+				B013585717FFA74300E848E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B013585817FFA74300E848E6 /* Build configuration list for PBXNativeTarget "ReverseObjectEnumeratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B013585917FFA74300E848E6 /* Debug */,
+				B013585A17FFA74300E848E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B013581B17FFA74300E848E6 /* Project object */;
+}
